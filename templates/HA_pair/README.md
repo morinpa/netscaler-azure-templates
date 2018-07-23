@@ -19,6 +19,10 @@ For understanding architecture or manual deployment steps, refer
 
 ### Quick Launch Link
 ---
+#### NetScaler High Availability(HA) Pair - 3 NICs Custom 
+[![Create NetScaler High Availability(HA) Pair - 3 NICs (Custom)](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmorinpa%2Fnetscaler-azure-templates%2Fmaster%2Ftemplates%2FHA_pair%2FHA_3nic-custom%2FmainTemplate.json)
+
+---
 #### NetScaler High Availability(HA) Pair - 3 NICs 
 [![Create NetScaler High Availability(HA) Pair - 3 NICs](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcitrix%2Fnetscaler-azure-templates%2Fmaster%2Ftemplates%2FHA_pair%2FHA_3nic%2FmainTemplate.json)
 
