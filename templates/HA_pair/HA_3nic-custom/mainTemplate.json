@@ -230,7 +230,7 @@
 				"hardwareProfile": {
 					"vmSize": "[parameters('vmSize')]"
 				},
-				"torageProfile": {
+				"storageProfile": {
 					"imageReference": {
 						"publisher": "citrix",
 						"offer": "netscalervpx-121",
