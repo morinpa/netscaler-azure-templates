@@ -132,7 +132,7 @@
 		"avsN": "ns-vpx-avl-set",
 		"alb-pipN": "ns-vpx-alb-publicip",
 		"mgmt-pipN-suffix": "-mgmt-publicip",
-		"saN": "[concat('ns-vpx-ha', uniqueString(resourceGroup().id))]",
+		"saN": "[concat('nsvpxha', uniqueString(resourceGroup().id))]",
 		"vnetRg": "[if(equals(parameters('vnetResourceGroup'), ''), resourceGroup().name,parameters('vnetResourceGroup'))]",
 		"vnetId": "[resourceId(variables('vnetRg'), 'Microsoft.Network/virtualNetworks', parameters('vnetName'))]",
 		"snetRef-01": "[concat(variables('vnetId'), '/subnets/', parameters('snetName-01'))]",
@@ -230,7 +230,7 @@
 				"hardwareProfile": {
 					"vmSize": "[parameters('vmSize')]"
 				},
-				"storageProfile": {
+				"torageProfile": {
 					"imageReference": {
 						"publisher": "citrix",
 						"offer": "netscalervpx-121",
